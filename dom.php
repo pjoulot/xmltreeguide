@@ -1,10 +1,11 @@
+<?php
+
 /*
 *******************************************
 	Copyright Philippe Joulot
 *******************************************
 */
 
-<?php
 $doc = new DOMDocument();
 $doc->load("test.xml");
 $racine = $doc->documentElement;
